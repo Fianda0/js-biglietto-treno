@@ -2,7 +2,7 @@ const prezzoKm = 0.21
 
 const kmPercorsi = prompt('inserire chilomerti da percorrere')
 console.log('i chilometri percorsi sono ' + kmPercorsi)
-document.getElementById('km').innerHTML = kmPercorsi
+document.getElementById('km').innerHTML = (`${kmPercorsi} km`)
 
 const eta = prompt('Inserire la tua eta`:')
 console.log('la tua eta` e` ' + eta)
